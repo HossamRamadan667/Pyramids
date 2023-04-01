@@ -1,0 +1,67 @@
+ @media only screen and (max-width: 800px) {
+     /*Small smartphones [800px -> 999px]*/
+
+     header nav .logo {
+         width: 25%;
+     }
+
+     header nav .links {
+         display: none;
+     }
+
+     /** header Section  */
+     header Section {
+         padding: 25vh 10% 50px;
+     }
+
+     section.about div {
+         margin: auto;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     section.about div img {
+         margin-top: 20px;
+         width: 100%;
+         height: 250px;
+     }
+
+     section.about div img {
+         width: 80%;
+
+     }
+
+     section.services>div {
+         grid-template-columns: auto;
+         gap: 20px;
+         justify-content: center;
+     }
+
+     header nav .links {
+         display: none;
+     }
+
+     header nav .bars {
+         display: inline-block;
+     }
+
+     section.contact .content {
+         display: flex;
+         justify-content: center;
+         width: 100%;
+     }
+
+     section.contact form {
+        margin: auto;  width: 90%;
+
+     }
+
+     section.contact img {
+         display: none;
+     }
+
+     footer {
+         flex-direction: column;
+         align-items: center;
+     } 
+ }
