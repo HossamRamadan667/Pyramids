@@ -20,6 +20,7 @@ global styles
 .fa-twitter {
     color: #1DA1F2;
 }
+
 .fa-github {
     color: #9656B0;
 }
@@ -268,6 +269,12 @@ footer div.links {
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+footer div.links div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer ul {
