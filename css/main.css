@@ -57,7 +57,29 @@ a {
     height: inherit;
 }
 
+#floating-action-button {
+    color: white;
+    font-size: 2em;
+    background-color: var(--gradientStart);
+    border-radius: 100%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    height: 70px;
+    border: none;
+    transform: scale(0);
+}
 
+#floating-action-button:hover {
+    box-shadow: 0 0 7px black;
+}
+
+
+#floating-action-button.show {
+    display: inline-block;
+    transform: scale(1);
+}
 
 
 /** Start big header */
